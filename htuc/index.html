@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>htuc-indx</title>
+		<meta name="description" content="A pure HTML reveal.js presentation">
+		<meta name="author" content="Your Name">
+
+
+		<link href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+		<link rel="stylesheet" href="../codestyle.css"/>
+		<link rel="stylesheet" href="../theme-dracula.css"/>
+
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/math/math.js"></script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>cmake 쓰는 법</h2>
+					<p>
+					<small class="fragment fade-in"><s>변환기만 가지고는 플젝하기 글렀다</s></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>학습목표</h2>
+					<ul>
+						<li class="fragment fade-in">
+							당신은 cmake 사용 시 최소 요구사항을 알 수 있다.
+						</li>
+						<li class="fragment fade-in">
+							편찬 과정를 이해할 수 있다.
+						</li>
+						<li class="fragment fade-in">
+							cmake의 구성 과정을 이해할 수 있다.
+						</li>
+
+					</ul>
+				</section>
+
+				<section>
+					<h2>최소 요구사항</h2>
+					<ul>
+						<li class="fragment fade-in">
+							당신은 영어를 보면 한국어로 바꿀 수 있다.
+						</li>
+						<li class="fragment fade-in">
+							당신은 검은 배경에 흰 글씨를 보고 두려움에 떨지 않는다.
+						</li>
+						<li class="fragment fade-in">
+							당신은 영타를 치는 데에 익숙하다.
+						</li>
+						<li class="fragment fade-in">
+							당신은 누리집을 활용하여 검색을 할 수 있다.
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<ul>
+						<li><a href="./build.html">편찬이 뭔데</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</body>
+
+	<script>
+		Reveal.initialize({
+			hash: true,
+			controls: true,
+			progress: true,
+			center: true,
+			slideNumber: 'c/t',
+			transition: 'slide', 
+			plugins: [ RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+		});
+	</script>
+</html>

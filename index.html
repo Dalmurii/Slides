@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My Awesome Reveal.js Presentation</title>
+		<meta name="description" content="A pure HTML reveal.js presentation">
+		<meta name="author" content="Your Name">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+		<link rel="stylesheet" href="./theme-dracula.css">
+		<link rel="stylesheet" href="./codestyle.css">
+
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/math/math.js"></script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Slides</h2>
+					<p>개인적인 목적으로 만들어짐</p>
+					<p>아직 한국어밖에 없음</p>
+				</section>
+
+				<section>
+					<h2>목차</h2>
+					<ul>
+						<li><a href="./htuc/index.html">변환기만 가지고는 플젝하기 글렀다</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+	</body>
+
+	<script>
+		Reveal.initialize({
+			hash: true,
+			controls: true,
+			progress: true,
+			center: true,
+			slideNumber: 'c/t',
+			transition: 'slide', 
+			plugins: [ RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+		});
+	</script>
+</html>
